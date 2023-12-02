@@ -28,7 +28,7 @@ export default function Price({language}){
                     `Disfruta de una extensa biblioteca de películas y series,
                     presentando una variedad de contenidos,
                     incluidos los títulos lanzados recientemente.`}
-                    price='9.99'
+                    price={paymentType == 'month' ? '9.99' : '109.89'}
                     PaymentType={language == 'EU' ?  (paymentType == 'month' ? 'month' : 'year') :
                         (paymentType == 'month' ? 'mes' : 'año')
                     }
@@ -39,7 +39,7 @@ export default function Price({language}){
                     title={language == 'EU' ? 'Standard Plan' : 'Plan estándar'}
                     description={language == 'EU' ? `Access to a wider selection of movies and shows, including most new releases and exclusive content.` : 
                     `Acceda a una selección más amplia de películas y programas, incluidos la mayoría de los estrenos nuevos y contenido exclusivo.`}
-                    price='12.99'
+                    price={paymentType == 'month' ? '12.99' : '142.89'}
                     PaymentType={language == 'EU' ?  (paymentType == 'month' ? 'month' : 'year') :
                         (paymentType == 'month' ? 'mes' : 'año')
                     } 
@@ -49,7 +49,7 @@ export default function Price({language}){
                     title={language == 'EU' ? 'Premium Plan' : 'Plan Premium'}
                     description={language == 'EU' ? `Access to a wider selection of movies and shows, including most new releases and offline viewing.` : 
                     `Acceda a una selección más amplia de películas y programas, incluidos la mayoría de los estrenos nuevos y visualización sin conexión.`}
-                    price='14.99'
+                    price={paymentType == 'month' ? '14.99' : '164.89'}
                     PaymentType={language == 'EU' ?  (paymentType == 'month' ? 'month' : 'year') :
                         (paymentType == 'month' ? 'mes' : 'año')
                     }
