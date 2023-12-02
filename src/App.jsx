@@ -17,7 +17,7 @@ function App() {
 
   return(
     <>
-      <Linkrepo link={'https://github.com/PANCHOv96'} title={language == 'EU' ? 'link repo' : 'repositorio'}/>
+      <Linkrepo link={'https://github.com/PANCHOv96/StreamingPrice'} title={language == 'EU' ? 'link repo' : 'repositorio'}/>
       <Navbar handleLanguage={handleLanguage} language={language}/>
       <Price language={language}/>
       <Stats language={language}/>
