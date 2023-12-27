@@ -1,53 +1,56 @@
+
 # Streaming Price
 
-lading page que muestra los distintos precios de los servicios de streaming al estilo de netflix , se realizo para reforzar los conosimientos del hook de useState para saber cuando cambia un elemento en el DOM o no. 
+lading page que muestra los distintos precios de los servicios de streaming al estilo de netflix , se realizo para reforzar los conosimientos del hook de useState para saber cuando cambia un elemento en el DOM o no.
 
 
+## Características Aprendidas
+
+- Responsive ✅
+- Hooks UseEffect ✅
+- Maquetado en Figma ✅
+
+
+## Screenshots
+
+![App Screenshot](https://raw.githubusercontent.com/PANCHOv96/ApiClima/blob/main/public/logo192.png)
+
+
+## Instalación 
+
+Instalar el proyecto con npm
+
+```bash
+  cd Streaming Price
+  npm install 
+```
+    
+## Ejecutar Localmente
+
+Para implementar este proyecto, ejecute
+
+```bash
+  cd Streaming Price
+  npm run dev
+```
 ## Demo
 
 https://streaming-price.vercel.app/
 
 
-## Características
+## Tecnologías utilizadas
 
-- Vista previa en vivo
-- Afianzar conocimiento del hook useState , solo se implemento este
-- Diseño responsivo
-- Maquetado en Figma
-- Css vanilla 
+**Client:** React , Vainilla CSS
 
-## Ejecutar Localmente
+## Personas Desarrolladoras del Proyecto
 
-Clona el repositorio
-
-```bash
-  git clone https://github.com/PANCHOv96/StreamingPrice
-```
-
-Ir al directorio del proyecto
-
-```bash
-  cd StreamingPrice
-```
-
-Instalar dependencias
-
-```bash
-  npm install
-```
-
-Iniciar el servidor
-
-```bash
-  npm run dev
-```
-
-
-## Comentario
-
-Si tiene algún comentario, comuníquese en vallonefrancisco.dev@gmail.com
-
+- [@panchov96](https://github.com/PANCHOv96)
 
 ## Inspiracion de Diseño
 
 - [@PRODUCE-UI](https://produce-ui.com/)
+
+## Feedback
+
+Si tiene algún comentario, comuníquese conmigo en vallonefrancisco.dev@gmail.com
+
