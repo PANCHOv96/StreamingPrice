@@ -13,7 +13,9 @@ lading page que muestra los distintos precios de los servicios de streaming al e
 
 ## Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/PANCHOv96/ApiClima/blob/main/public/logo192.png)
+![App Screenshot](https://github.com/PANCHOv96/StreamingPrice/blob/main/src/assets/PaintShop.png)
+![App Screenshot](https://github.com/PANCHOv96/StreamingPrice/blob/main/src/assets/PaintShop2.png)
+![App Screenshot](https://github.com/PANCHOv96/StreamingPrice/blob/main/src/assets/PaintShop3.png)
 
 
 ## Instalación 
